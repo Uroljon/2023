@@ -13,6 +13,10 @@ body {
 }
 
 /* ===============================MAIN============================ */
+main {
+    position: relative;
+}
+
 main h2 {
     position: absolute;
     /* left: 25%; */
@@ -35,7 +39,7 @@ main h2 {
 
     100% {
         color: rgb(255, 255, 255);
-        transform: scale(3);
+        transform: scale(4);
     }
 }
 
@@ -55,9 +59,7 @@ main h2 span {
 .toUpContainer {
     width: 100%;
     height: 23vh;
-    /* border: 1px solid green; */
-    /* position: absolute; */
-
+    position: absolute;
 }
 
 .snowToUp {
@@ -90,7 +92,7 @@ transform: scale(1);
 
     100% {
         opacity: 0;
-        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3) translateY(-50px) translateX(0px);
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(4) translateY(-50px) translateX(0px);
     }
 }
 
@@ -132,7 +134,7 @@ transform: scale(1);
 
     100% {
         opacity: 0;
-        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3) translateY(0px) translateX(-100px);
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(4) translateY(0px) translateX(-100px);
     }
 }
 
@@ -174,7 +176,7 @@ transform: scale(1);
 
     100% {
         opacity: 0;
-        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3) translateY(0px) translateX(100px);
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(4) translateY(0px) translateX(100px);
     }
 }
 
@@ -216,7 +218,7 @@ transform: scale(1);
 
     100% {
         opacity: 0;
-        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3) translateY(100px) translateX(100px);
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(4) translateY(100px) translateX(100px);
     }
 }
 
@@ -256,7 +258,7 @@ transform: scale(1);
 
     100% {
         opacity: 0;
-        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3) translateY(180px) translateX(-100px);
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(4) translateY(180px) translateX(-100px);
     }
 }
 
@@ -276,7 +278,7 @@ transform: scale(1);
     animation-name: snowOnFaceAnimation;
     animation-duration: 7s;
     animation-delay: 1s;
-    animation-timing-function: cubic-bezier(1,-0.01,.82,1.02);
+    animation-timing-function: cubic-bezier(1, -0.01, .82, 1.02);
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     opacity: 0;
